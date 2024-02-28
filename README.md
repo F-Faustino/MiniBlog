@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# MiniBlog Project README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to MiniBlog, a simple blogging platform where users can create, edit, and delete posts, view all posts, filter by tags, and read posts. This project utilizes a JavaScript foundation with ReactJS for the frontend and Firebase as the backend service for authentication and database management. It leverages React hooks such as useState, useEffect, and useReducer for state management and custom hooks to interact with Firebase functions for various operations like updating, deleting, creating, logging in, registering, and logging out.
 
-In the project directory, you can run:
+## Functionalities
 
-### `npm start`
+- **Create Post**: Users can create new posts and publish them on the platform.
+- **Edit Post**: Existing posts can be edited by users to update their content.
+- **Delete Post**: Users have the ability to delete posts they no longer wish to keep.
+- **View All Posts**: Users can browse through all posts available on the platform.
+- **View My Posts**: Users can see the posts they have authored.
+- **Search by Tags**: Posts can be filtered based on tags, enabling users to find relevant content.
+- **Read Post**: Users can read individual posts to consume their content.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **JavaScript + ReactJS**: The frontend of the application is built using JavaScript and the ReactJS library, providing a dynamic and interactive user interface.
+- **Firebase**: Firebase serves as the backend service for authentication and database management, offering secure user authentication and efficient data storage.
+- **Hooks (useState, useEffect, useReducer)**: React hooks are utilized for managing state, handling side effects, and managing complex state logic within functional components.
+- **Custom Hooks**: Custom hooks are implemented to encapsulate Firebase functions for operations such as updating, deleting, creating, logging in, registering, and logging out, promoting code reusability and maintainability.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the Miniblog project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository from GitHub: `git clone <repository_url>`
+2. Navigate to the project directory: `cd miniblog`
+3. Install dependencies using your package manager (e.g., npm or yarn): `npm install` or `yarn install`
+4. Run the application locally: `npm start` or `yarn start`
+5. Access the application in your web browser at `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed by Filipe Faustino.
