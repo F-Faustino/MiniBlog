@@ -1,4 +1,4 @@
-# MiniBlog Project README
+# README
 
 ## Overview
 
