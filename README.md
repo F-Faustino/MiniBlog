@@ -20,6 +20,7 @@ Welcome to MiniBlog, a simple blogging platform where users can create, edit, an
 - **Firebase**: Firebase serves as the backend service for authentication and database management, offering secure user authentication and efficient data storage.
 - **Hooks (useState, useEffect, useReducer)**: React hooks are utilized for managing state, handling side effects, and managing complex state logic within functional components.
 - **Custom Hooks**: Custom hooks are implemented to encapsulate Firebase functions for operations such as updating, deleting, creating, logging in, registering, and logging out, promoting code reusability and maintainability.
+- **React Router**: React Router was used to manage navigation and routing. Allowing users to navigate between different parts of the application without refreshing the page.
 
 ## Getting Started
 
